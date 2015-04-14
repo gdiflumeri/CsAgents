@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.colsam.csagents" versionCode="100" version="1.0.0">
-<name>CS AGENTS</name>
+<name>CS Agents</name>
 <description>App Vendite Colorificio Sammarinese</description>
 <gap:plugin name="com.brodysoft.sqliteplugin" />
 <gap:plugin name="io.github.pwlin.cordova.plugins.fileopener2" />
@@ -8,7 +8,15 @@
 <gap:platform name="ios" />
 <gap:platform name="winphone" />
 <icon src="icon.png" />
+<icon src="icons/ios/icon.png" gap:platform="ios" width="57" height="57" />
+<icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+<icon src="icons/ios/icon_at_2x.png" gap:platform="ios" width="114" height="114" />
+<icon src="icons/ios/icon-72_at_2x.png" gap:platform="ios" width="144" height="144" />
 <gap:splash src="splash.png" />
+<gap:splash src="splash/ios/Retina.png" gap:platform="ios" width="640" height="960" />
+<gap:splash src="splash/ios/Default-Landscape.png" gap:platform="ios" width="1024" height="768" />
+<gap:splash src="splash/ios/iPhone5.png" gap:platform="ios" width="640" height="1136" />
+<gap:splash src="splash/ios/Default-Portrait_2x.png" gap:platform="ios" width="2048" height="1536" />
 <gap:plugin name="com.phonegap.plugins.barcodescanner" />
 <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
 <gap:plugin name="com.adobe.plugins.gaplugin" />
