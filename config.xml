@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.colsam.csagents" versionCode="100" version="1.0.0">
-<name>CSAGENTS</name>
+<name>CS AGENTS</name>
 <description>App Vendite Colorificio Sammarinese</description>
 <gap:plugin name="com.brodysoft.sqliteplugin" />
 <gap:plugin name="io.github.pwlin.cordova.plugins.fileopener2" />
 <gap:platform name="android" />
 <gap:platform name="ios" />
 <gap:platform name="winphone" />
+<icon src="icon.png" />
+<gap:splash src="splash.png" />
 <gap:plugin name="com.phonegap.plugins.barcodescanner" />
 <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
 <gap:plugin name="com.adobe.plugins.gaplugin" />
