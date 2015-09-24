@@ -23,7 +23,7 @@
 <gap:plugin name="nl.x-services.plugins.calendar" />
 <gap:plugin name="com.chariotsolutions.nfc.plugin" />
 <gap:plugin name="nl.x-services.plugins.sslcertificatechecker" />
-<preference name='phonegap-version' value='cli-5.2.0' />
+<preference name="phonegap-version" value="3.7.0" />
 <platform name="winphone">
 <preference name="fullscreen" value="true" />
 </platform>
