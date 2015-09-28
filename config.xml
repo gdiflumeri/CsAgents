@@ -3,7 +3,7 @@
 <name>CS AGENTS</name>
 <description>App Vendite Colorificio Sammarinese</description>
 <gap:plugin name="cordova-sqlite-storage" source="npm" />
-<gap:plugin name="io.github.pwlin.cordova.plugins.fileopener2" />
+<gap:plugin name="cordova-plugin-file-opener2" source="npm" version="2.0.0" />
 <gap:platform name="android" />
 <gap:platform name="ios" />
 <gap:platform name="winphone" />
